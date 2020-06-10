@@ -3034,7 +3034,7 @@ body.box-body {
   height: 630px;
   left: calc(50% + 0.5px);
   position: absolute;
-  top: -5px;
+  top: 0px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 277px;
@@ -3758,4 +3758,8 @@ a.nav-link {
 
 .bold {
   font-weight: bold;
+}
+
+.feature-content{
+  padding: 15px !important;
 }
