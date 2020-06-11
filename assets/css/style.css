@@ -833,7 +833,7 @@ body.box-body {
 }
 @media only screen and (max-width: 767px) {
   .section-title h2 {
-    font-size: 26px !important;
+    font-size: 22px !important;
   }
 }
 .section-title p {
@@ -2776,7 +2776,7 @@ body.box-body {
 }
 .project-count-area .project-count-inner p {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 .project-count-area .project-count-inner.text-black-bg {
   background: #fff;
@@ -3739,10 +3739,15 @@ a.nav-link {
     text-align: center !important;
   }
 
+  .tabs-tutor{
+    margin-left: 30%;
+  }
+
 
   .tabs-tutor li.nav-item {
     width: 30%!important;
   }
+  
   
   span.nav-link-wrap {
     display: block;
