@@ -833,7 +833,7 @@ body.box-body {
 }
 @media only screen and (max-width: 767px) {
   .section-title h2 {
-    font-size: 26px;
+    font-size: 26px !important;
   }
 }
 .section-title p {
@@ -1289,6 +1289,7 @@ body.box-body {
 @media only screen and (max-width: 767px) {
   .hero-slider p {
     margin: 15px 0 15px 0;
+    font-size: 14px !important;
   }
 }
 .hero-slider .slider-button .slider-btn {
@@ -1359,8 +1360,8 @@ body.box-body {
 }
 @media only screen and (max-width: 479px) {
   .hero-slider .hero-content-five h1 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 45px;
     margin-bottom: 5px;
   }
 }
@@ -2534,7 +2535,7 @@ body.box-body {
   opacity: 1;
 }
 .feature-area-inner .single-feature .feature-content h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -2723,6 +2724,13 @@ body.box-body {
 .project-count-area {
   margin-top: -90px;
 }
+
+@media only screen and (max-width: 479px){
+  .project-count-area .container {
+    width: 350px !important;
+}
+}
+  
 .project-count-area .project-count-inner {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -3590,7 +3598,7 @@ input:focus {
   padding: 8px 0 8px 30px;
   position: relative;
 }
-.feature-content ul li i {
+.feature-content ul li .t {
   position: absolute;
   left: 0;
   font-size: 15px !important;
@@ -3704,7 +3712,9 @@ a.nav-link {
 
 
 
-
+.tutor{
+  position: relative;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -3714,9 +3724,25 @@ a.nav-link {
       margin: 5px 0;
   }
   li.nav-item, li.nav-item:last-child {
-      width: 50% !important;
+      width: 35% !important;
   }
 
+  .feature-tab-list{
+    margin-bottom: 30px !important;
+  }
+
+   .tutor{
+    margin-top: 30px !important;
+  }
+
+  .tutor h4{
+    text-align: center !important;
+  }
+
+
+  .tabs-tutor li.nav-item {
+    width: 30%!important;
+  }
   
   span.nav-link-wrap {
     display: block;
@@ -3760,6 +3786,33 @@ a.nav-link {
   font-weight: bold;
 }
 
-.feature-content{
+.pd{
   padding: 15px !important;
+}
+
+.tabs-tutor a.nav-link{
+  padding: 8px !important;
+  line-height: 15px!important;
+}
+
+.tabs-tutor ul li {
+  color: #1d2025;
+  padding: 8px 0 8px 0px !important;
+
+}
+
+.tabs-tutor li.nav-item {
+  width: 30%!important;
+  text-align: center;
+}
+
+.t{
+
+  font-size: 15px;
+}
+
+.y{
+  margin: 0px 5px 0px 5px;
+  color:#0fc1a7;
+  font-size: 20px !important;
 }
