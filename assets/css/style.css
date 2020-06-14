@@ -1337,7 +1337,7 @@ body.box-body {
   }
 }
 .hero-slider .hero-content-five h1 {
-  font-size: 60px;
+  font-size: 55px;
   line-height: 1.3;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1403,6 +1403,14 @@ body.box-body {
   position: relative;
   z-index: 1;
 }
+.min-h{
+  height: 350px !important;
+}
+
+.min-h h1{
+  text-align: center;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .hero-slider .single-slide {
     height: 750px;
@@ -3820,4 +3828,19 @@ a.nav-link {
   margin: 0px 5px 0px 5px;
   color:#0fc1a7;
   font-size: 20px !important;
+}
+
+.ket-content{
+  text-align: justify;
+}
+.ket-content ul{
+  margin-bottom: 1rem;
+}
+.ket-content ul li i{
+margin-right: 5px;
+}
+
+ol li{
+  text-align: justify;
+  margin-top: 5px;
 }
